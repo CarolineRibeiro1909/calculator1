@@ -48,4 +48,19 @@ public class CalculatorService implements Calculable {
 		return dividend / divisor;
 	}
 
+    @Override
+    public double add(double portion1, double portion2) {
+        return portion1  + portion2;
+    }
+
+    @Override
+    public double subtract(double portion1, double portion2) {
+        return portion1 - portion2;
+    }
+
+    @Override
+    public double multiply(double factor1, double factor2) {
+        return factor1 * factor2;
+    }
+
 }
